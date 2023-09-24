@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* root */
+:root{
+    --primary-text-color:#183b56;
+    --secondary-text-color:#577592;
+    --accent-color:#2294ed;
+    --padding-inline-section:20px;
+}
+
+/* button styling */
+.primary-button{
+
+    background-color: var(--accent-color);
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    transition: 0.2s ease-out;
+  
+}
+
+.primary-button:hover{
+    background-color: var(--accent-color-dark);
+}
+
+
+/* top bnner */
+.banner{
+    background-color: rgba(23, 147, 163, 0.801);
+    width: 100%;
+    height: 60px;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+
+.banner-text{
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+}
+
+/* main-body */
+.main-body{
+    background-color: #183b56;
+    height: 83vh;
+    width: 100%;
+}
+
+
+a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+.joke p,h2{
+    font-size: 2rem;
+    color: #183b56;
+   
+}
+
+p{
+    padding-left: 20vh;
+    padding-right: 20vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* image-container */
+.img1{
+    display: inline-flex;
+    background-color: #183b56;
+}
+
+.img2{
+    display: inline-flex;
+    background-color: #183b56;
+}
+
+.img3{
+    display: inline-flex;
+    background-color: #183b56;
+}
+
+.img4{
+    display: inline-flex;
+    background-color: #183b56;
+}
+
+.img5{
+    display: inline-flex;
+    background-color: #183b56;
+}
+
+.imgcontainer{
+    display: flex;
+    padding-top: 30px;
+}
+
+/* joke button */
+
+.btn{
+    display: flex;
+    margin-left: 90vh;
+    padding-top: 30px;
+}
+
+/* footer */
+
+.subfooter{
+    background-color: #2294ed;
+    justify-content: center;
+    height: 13.5px;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    padding: var(--padding-inline-section);
+}
+
+.subfooter p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    font-size: 2rem;
+    color: white;
+}
+
+
+
+
